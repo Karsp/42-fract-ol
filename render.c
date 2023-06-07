@@ -6,21 +6,15 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 11:53:11 by daviles-          #+#    #+#             */
-/*   Updated: 2023/06/06 17:24:36 by daviles-         ###   ########.fr       */
+/*   Updated: 2023/06/07 02:21:28 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_fractol.h"
 
-int	make_color(t_data *data)
+int	generate_fractal(t_data *data)
 {
-	int	color_value;
-
-	color_value = data->iter * 15;
-	apply_shift(data);
-	data->color->r = get_r(color_value);
-	data->color->g = get_g(color_value);
-	data->color->b = get_b(color_value);
-	return (create_trgb(0, data->color->r, data->color->g, data->color->b));
+	generate_mandelbrot(data);
+	return (1);
 }
 
 void	img_pix_put(t_img *img, int x, int y, int color)
@@ -29,6 +23,18 @@ void	img_pix_put(t_img *img, int x, int y, int color)
 
     pixel = img->addr + (y * img->ln_len + x * (img->bpp / 8));
 	*(int *)pixel = color;
+}
+
+int	make_color(t_data *data)
+{
+	int	color_value;
+
+	color_value = data->iter * 15;
+	data->color->r = get_r(color_value);
+	data->color->g = get_g(color_value);
+	data->color->b = get_b(color_value);
+	apply_shift(data);
+	return (create_trgb(0, data->color->r, data->color->g, data->color->b));
 }
 
 void	shift_color(t_data *data)
@@ -60,11 +66,5 @@ void	apply_shift(t_data *data)
 		data->color->b = 75;
 		data->color->g += 75;
 	}
-	return ;
-}
-
-void	shift_res(t_data *data)
-{
-	data->res += 10;
 	return ;
 }

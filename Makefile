@@ -5,7 +5,7 @@ EXELIB	=	libftfractol.a
 
 LIB 	=	libft/libft.a
 
-SRC = ft_fractol.c fractol_utils.c setInit.c color.c render.c events.c
+SRC = ft_fractol.c setInit.c color.c render.c events.c actions.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -35,7 +35,6 @@ clean :
 fclean : clean
 	$(RM) $(EXE)
 
-
 re : fclean all
 
-.PHONY : all EXE clean fclean re
+.PHONY : all clean fclean re
