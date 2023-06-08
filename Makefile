@@ -5,7 +5,9 @@ EXELIB	=	libftfractol.a
 
 LIB 	=	libft/libft.a
 
-SRC = ft_fractol.c setInit.c color.c render.c events.c actions.c
+SRC = ft_fractol.c set_init.c color.c render.c events.c actions.c \
+	  mandelbrot.c sort.c julia.c
+
 
 OBJ = $(SRC:.c=.o)
 

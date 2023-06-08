@@ -6,22 +6,25 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 11:53:11 by daviles-          #+#    #+#             */
-/*   Updated: 2023/06/07 02:21:28 by daviles-         ###   ########.fr       */
+/*   Updated: 2023/06/08 01:52:13 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_fractol.h"
 
 int	generate_fractal(t_data *data)
 {
-	generate_mandelbrot(data);
+	if (data->set == 1)
+		generate_mandelbrot(data);
+	if (data->set == 2)
+		generate_julia(data);
 	return (1);
 }
 
 void	img_pix_put(t_img *img, int x, int y, int color)
 {
-	char    *pixel;
+	char	*pixel;
 
-    pixel = img->addr + (y * img->ln_len + x * (img->bpp / 8));
+	pixel = img->addr + (y * img->ln_len + x * (img->bpp / 8));
 	*(int *)pixel = color;
 }
 
@@ -42,7 +45,6 @@ void	shift_color(t_data *data)
 	data->color_shift += 1;
 	if (data->color_shift > 5)
 		data->color_shift = 1;
-	return ;
 }
 
 void	apply_shift(t_data *data)
@@ -66,5 +68,4 @@ void	apply_shift(t_data *data)
 		data->color->b = 75;
 		data->color->g += 75;
 	}
-	return ;
 }

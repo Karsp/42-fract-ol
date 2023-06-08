@@ -6,7 +6,7 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 11:30:48 by daviles-          #+#    #+#             */
-/*   Updated: 2023/06/07 01:11:49 by daviles-         ###   ########.fr       */
+/*   Updated: 2023/06/07 22:44:35 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_fractol.h"
@@ -14,29 +14,6 @@
 int	create_trgb(int t, int r, int g, int b)
 {
 	return (t << 24 | r << 16 | g << 8 | b);
-}
-
-int	get_light(int i, t_data *data)
-{
-	int	percent;
-	int	max_iter;
-
-	max_iter = MAX_ITERATION + data->res_shift;
-	if (i <= (max_iter / 2 - 1))
-	{
-		percent = (i * 100) / (max_iter / 2);
-		data->color->r = 255;
-		data->color->g = 255 * (percent / 100);
-		data->color->b = 255 * (percent / 100);
-	}
-	else
-	{
-		percent = (i * 100) / (max_iter);
-		data->color->r = 255 * (percent / 100);
-		data->color->g = 255;
-		data->color->b = 255;
-	}
-	return (create_trgb(0, data->color->r, data->color->g, data->color->b));
 }
 
 int	get_r(int color_value)
