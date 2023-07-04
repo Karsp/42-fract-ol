@@ -6,7 +6,7 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 11:53:11 by daviles-          #+#    #+#             */
-/*   Updated: 2023/06/08 01:52:13 by daviles-         ###   ########.fr       */
+/*   Updated: 2023/06/21 17:27:43 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_fractol.h"
@@ -17,6 +17,8 @@ int	generate_fractal(t_data *data)
 		generate_mandelbrot(data);
 	if (data->set == 2)
 		generate_julia(data);
+	if (data->set == 3)
+		generate_burnship(data);
 	return (1);
 }
 

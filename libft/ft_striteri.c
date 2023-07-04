@@ -6,7 +6,7 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 20:54:25 by daviles-          #+#    #+#             */
-/*   Updated: 2023/04/06 19:21:18 by daviles-         ###   ########.fr       */
+/*   Updated: 2023/06/07 21:02:02 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include"libft.h"
@@ -25,16 +25,27 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		c++;
 	}
 }
-/*
+
+void	my_tolower(unsigned int c, char *s)
+{
+	char	*str;
+
+	(void)c;
+	str = s;
+	if (*str >= 65 && *str <= 90)
+		*str += 32;
+}
+
 void	my_toupper(unsigned int c, char *s)
 {
 	char	*str;
 
+	(void)c;
 	str = s;
 	if (*str >= 97 && *str <= 122)
 		*str -= 32;
 }
-
+/*
 int	main(void)
 {
 	char	str[] = "Tiempo de valientes.";

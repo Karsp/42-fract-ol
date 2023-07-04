@@ -6,7 +6,7 @@
 /*   By: daviles- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 17:12:49 by daviles-          #+#    #+#             */
-/*   Updated: 2023/04/02 16:28:25 by daviles-         ###   ########.fr       */
+/*   Updated: 2023/06/07 20:51:33 by daviles-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -16,6 +16,7 @@
 # include<string.h>
 # include<stdio.h>
 # include<unistd.h>
+# include"ft_printf/libftprintf.h"
 
 typedef struct s_list
 {
@@ -66,5 +67,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
-
+void	my_tolower(unsigned int c, char *s);
+void	my_toupper(unsigned int c, char *s);
 #endif
