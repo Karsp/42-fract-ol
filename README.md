@@ -44,5 +44,24 @@ The goal is for us to discover and use the mathematical notion of complex number
   Press J to change from a list of iconic Julia sets.
 
 ## Screenshots and media
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
-![](d[http://url/a.png](https://j.gifs.com/Qkx3Eq.gif)https://j.gifs.com/Qkx3Eq.gif)
+** 2 Julia Set
+* Changing from recomended fractal sets
+* 
+![Fractol_media_01](https://github.com/Karsp/42-fract-ol/assets/32735225/24160870-685f-48cc-8ebc-54ab7acea899)
+
+* Changing color and resolution
+* 
+![Fractol_media_02](https://github.com/Karsp/42-fract-ol/assets/32735225/2d5a4d4a-d133-42c8-9219-8d1e318b1110)
+
+* Enter live mode of fractal generation
+* 
+![Fractol_media_03](https://github.com/Karsp/42-fract-ol/assets/32735225/f1b4676b-545f-432c-a7da-b88a26f12bd5)
+
+* Dive in some random points
+
+
+
+
+
+
+
