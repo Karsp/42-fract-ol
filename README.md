@@ -44,5 +44,5 @@ The goal is for us to discover and use the mathematical notion of complex number
   Press J to change from a list of iconic Julia sets.
 
 ## Screenshots and media
-
-![Image](h[ttp://url/a.png](https://github.com/Karsp/42-fract-ol/blob/master/media/Fractal02.webm)https://github.com/Karsp/42-fract-ol/blob/master/media/Fractal02.webm) 
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+![](d[http://url/a.png](https://j.gifs.com/Qkx3Eq.gif)https://j.gifs.com/Qkx3Eq.gif)
