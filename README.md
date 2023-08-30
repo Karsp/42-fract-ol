@@ -1,4 +1,4 @@
-# Fract-ol  |  [![daviles-'s 42 fract-ol Score](https://badge42.vercel.app/api/v2/cljnk09b8001108mj13orwiyl/project/3099410)](https://github.com/JaeSeoKim/badge42)
+# Fract-ol  |  <!-- [![daviles-'s 42 fract-ol Score](https://badge42.vercel.app/api/v2/cljnk09b8001108mj13orwiyl/project/3099410)](https://github.com/JaeSeoKim/badge42) -->
 >The goal of this project is to create a small fractal exploration program.
 
 ## Index
