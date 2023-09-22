@@ -44,21 +44,33 @@ The goal is for us to discover and use the mathematical notion of complex number
   Press J to change from a list of iconic Julia sets.
 
 ## Screenshots and media
+** 1 Mandelbrot Set
+* Changing color 
+![Mandelbrot changing colors](https://github.com/Karsp/42-fract-ol/assets/32735225/40b182fa-eb1d-4cfb-9578-0a482acd8d1a)
+
+* Changing resolution
+
+* Dive in some random points
+
 ** 2 Julia Set
-* Changing from recomended fractal sets
-* 
+* Changing from recomended fractal sets 
 ![Fractol_media_01](https://github.com/Karsp/42-fract-ol/assets/32735225/24160870-685f-48cc-8ebc-54ab7acea899)
 
 * Changing color and resolution
-* 
 ![Fractol_media_02](https://github.com/Karsp/42-fract-ol/assets/32735225/2d5a4d4a-d133-42c8-9219-8d1e318b1110)
 
 * Enter live mode of fractal generation
-* 
 ![Fractol_media_03](https://github.com/Karsp/42-fract-ol/assets/32735225/f1b4676b-545f-432c-a7da-b88a26f12bd5)
 
 * Dive in some random points
 
+
+** 3 Burn Ship Set
+* Changing color 
+
+* Changing resolution
+
+* Dive in some random points
 
 
 
