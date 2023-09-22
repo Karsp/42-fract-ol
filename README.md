@@ -3,7 +3,7 @@
 
 ## Index
 [Project overview](#project-overview)
-[Screenshots and media]
+[Screenshots and media](#screenshots-and-media)
 [Fractals overview]
 [Notes and tips to build this project]
 
@@ -49,6 +49,7 @@ The goal is for us to discover and use the mathematical notion of complex number
 ![Mandelbrot changing colors](https://github.com/Karsp/42-fract-ol/assets/32735225/40b182fa-eb1d-4cfb-9578-0a482acd8d1a)
 
 * Changing resolution
+![Mandelbrot changeing resolution](https://github.com/Karsp/42-fract-ol/assets/32735225/76763932-4257-4346-8205-2ad8bdd23510)
 
 * Dive in some random points
 ![Mandelbrot zoom 2](https://github.com/Karsp/42-fract-ol/assets/32735225/e36e495a-915c-4e69-bf01-101b4870aa02)
@@ -68,12 +69,8 @@ The goal is for us to discover and use the mathematical notion of complex number
 
 
 ** 3 Burn Ship Set
-* Changing color 
-
-* Changing resolution
-
 * Dive in some random points
-
+![Bunrshipzoomin1](https://github.com/Karsp/42-fract-ol/assets/32735225/61a6d914-228c-4418-8398-5b63b43d06ba)
 
 
 
