@@ -51,6 +51,7 @@ The goal is for us to discover and use the mathematical notion of complex number
 * Changing resolution
 
 * Dive in some random points
+![Mandelbrot zoom 2](https://github.com/Karsp/42-fract-ol/assets/32735225/e36e495a-915c-4e69-bf01-101b4870aa02)
 
 ** 2 Julia Set
 * Changing from recomended fractal sets 
@@ -63,6 +64,7 @@ The goal is for us to discover and use the mathematical notion of complex number
 ![Fractol_media_03](https://github.com/Karsp/42-fract-ol/assets/32735225/f1b4676b-545f-432c-a7da-b88a26f12bd5)
 
 * Dive in some random points
+![Julia zoom 2](https://github.com/Karsp/42-fract-ol/assets/32735225/7c5bf72e-c953-4fc7-bd07-9557f1140661)
 
 
 ** 3 Burn Ship Set
