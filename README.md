@@ -285,7 +285,7 @@ and the imaginary parts together. However, complex number multiplication
 is not that easy. We can deduce mathematically how the multiplication can
 be calculated:
 
-!http://warp.povusers.org/Mandelbrot/eqn3.png
+![eqn3](https://github.com/Karsp/42-fract-ol/assets/32735225/97ab9c12-d3ac-4eca-9ffb-11d25a671301)
 
 So we see that in the result of the multiplication the real part is
 a2-b2 and the imaginary part is 2*a*b.
@@ -318,6 +318,8 @@ In this example we map n to a color so that from 0 to MaxIterations/2-1 the colo
 The colors are not only visually appealing, but they also give us a lot of extra information that didn't show up in the colorless version. The shapes formed by the colors are not coincidence, but they are closely related to the set itself.
 
 The Mandelbrot set has the property that for a value which is close to the border of the set it will take longer (that is, more iterations) to escape to infinity than for a value which is farther away from the border of the set. This means that our colors are actually saying to us where the border of the set is: The brighter the color, the closer the border of the set is. 
+
+***
 
 ### Julia set
 
@@ -365,6 +367,7 @@ Julia set for K.
 For these reasons it is said that the Mandelbrot set is a "map" of all
 the Julia sets.
 
+***
 
 ### Burning ship 
 
@@ -391,7 +394,8 @@ So in order that all the moving and zooming functions works, I had to modify som
 
 
 ## Screenshots and media
-** 1 Mandelbrot Set
+
+**1 Mandelbrot Set**
 * Changing color 
 ![Mandelbrot changing colors](https://github.com/Karsp/42-fract-ol/assets/32735225/40b182fa-eb1d-4cfb-9578-0a482acd8d1a)
 
@@ -401,7 +405,9 @@ So in order that all the moving and zooming functions works, I had to modify som
 * Dive in some random points
 ![Mandelbrot zoom 2](https://github.com/Karsp/42-fract-ol/assets/32735225/e36e495a-915c-4e69-bf01-101b4870aa02)
 
-** 2 Julia Set
+***
+
+**2 Julia Set**
 * Changing from recomended fractal sets 
 ![Fractol_media_01](https://github.com/Karsp/42-fract-ol/assets/32735225/24160870-685f-48cc-8ebc-54ab7acea899)
 
@@ -414,8 +420,9 @@ So in order that all the moving and zooming functions works, I had to modify som
 * Dive in some random points
 ![Julia zoom 1](https://github.com/Karsp/42-fract-ol/assets/32735225/3201b26e-2ba6-4e4b-9802-ab1a254cc747)
 
+***
 
-** 3 Burn Ship Set
+**3 Burn Ship Set**
 * Dive in some random points
 ![Bunrshipzoomin1](https://github.com/Karsp/42-fract-ol/assets/32735225/61a6d914-228c-4418-8398-5b63b43d06ba)
 
