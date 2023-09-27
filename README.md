@@ -3,7 +3,7 @@
 
 ## Index
 [Project overview](#project-overview)
-[Installation & Usage](https://github.com/Karsp/42-fract-ol/edit/master/README.md#installation--usage)
+[Installation & Usage](#installation--usage)
 [Fractals overview](#fractals-overview)
 [Screenshots and media](#screenshots-and-media)
 [Notes and bibliography](#Notes-and-bibliography)
