@@ -2,11 +2,11 @@
 >The goal of this project is to create a small fractal exploration program.
 
 ## Index
-[Project overview](#project-overview)
-[Installation & Usage](#installation--usage)
-[Fractals overview](#fractals-overview)
-[Screenshots and media](#screenshots-and-media)
-[Notes and bibliography](#Notes-and-bibliography)
+| [Project overview](#project-overview) |
+[Installation & Usage](#installation--usage) |
+[Fractals overview](#fractals-overview) |
+[Screenshots and media](#screenshots-and-media) |
+[Notes and bibliography](#notes-and-bibliography) |
 
 
 ## Project overview
@@ -44,6 +44,7 @@ The goal is for us to discover and use the mathematical notion of complex number
   Press M key to enter live mode and change the values while moving mouse on screen.
   Press J to change from a list of iconic Julia sets.
 
+
 ## Installation & Usage
 
 To generate an executable for this project run `make` in the root of the project directory after you've downloaded or cloned it.
@@ -67,6 +68,7 @@ When you run the program with your desired fractal, you will receive the instruc
 <img width="628" alt="RunningBurning" src="https://github.com/Karsp/42-fract-ol/assets/32735225/dd10d862-c3c3-4bfc-984e-af6192fe1c02">
 
 **Enjoy it!**
+
 
 ## Fractals overview
 
@@ -419,6 +421,7 @@ So in order that all the moving and zooming functions works, I had to modify som
 
 * Zommin and change resolution
 ![Burningship zommresolution](https://github.com/Karsp/42-fract-ol/assets/32735225/36f7e49f-ec1a-4f4b-bbec-b090d1a0acd0)
+
 
 
 ## Notes and bibliography
